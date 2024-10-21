@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Reforço de Matemática</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/java.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Reforço de Matemática</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Aulas</a></li>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" id="login-button">Login</a></li> <!-- Botão de Login -->
+            </ul>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Aprenda Matemática de uma forma simples e eficaz!</h2>
+            <p>Com nossas aulas exclusivas, você estará pronto para gabaritar qualquer prova ou concurso.</p>
+            <a href="#" class="btn" id="start-button">Comece Agora</a>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Seção de Login -->
+        <div class="form-container" id="login-section" style="display: none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="login-cpf">CPF:</label>
+                <input type="text" id="login-cpf" name="cpf" required>
+
+                <label for="login-email">E-mail:</label>
+                <input type="email" id="login-email" name="email" required>
+
+                <label for="login-password">Senha:</label>
+                <input type="password" id="login-password" name="password" required>
+
+                <button type="submit">Entrar</button>
+            </form>
+            <a href="#" id="forgot-password">Esqueci minha senha?</a> <!-- Link para recuperar senha -->
+        </div>
+
+        <!-- Seção de Cadastro -->
+        <div class="form-container" id="register-section" style="display: none;">
+            <h2>Cadastrar-se</h2>
+            <form id="register-form">
+                <label for="register-cpf">CPF:</label>
+                <input type="text" id="register-cpf" name="cpf" required>
+
+                <label for="register-email">E-mail:</label>
+                <input type="email" id="register-email" name="email" required>
+
+                <label for="register-password">Senha:</label>
+                <input type="password" id="register-password" name="password" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Reforço de Matemática. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+

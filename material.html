@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material - Reforço de Matemática</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Material de Aulas</h1>
+        <h2>Bem-vindo, <span id="username"></span>!</h2>
+        <p>Aqui você encontrará todo o material das aulas.</p>
+        <!-- Aqui você pode adicionar o conteúdo do material -->
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Reforço de Matemática. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Captura o nome do usuário armazenado no localStorage e exibe na página
+        document.getElementById("username").innerText = localStorage.getItem("username");
+    </script>
+</body>
+</html>
